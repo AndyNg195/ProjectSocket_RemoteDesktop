@@ -6,8 +6,7 @@ import pickle# thư viện dùng để nén dữ liệu
 from pynput import mouse
 
 server_address = ('localhost', 9091)
-
-
+client_socket.connect(server_address)
 
 # Work with Image
 from PIL import ImageGrab #Import thư viện ImageGrab từ Pillow để chụp ảnh màn hình.

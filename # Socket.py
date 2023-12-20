@@ -8,7 +8,6 @@ from pynput import mouse
 server_address = ('localhost', 9091)
 
 
-
 # Work with Image
 from PIL import ImageGrab #Import thư viện ImageGrab từ Pillow để chụp ảnh màn hình.
 import io #Import thư viện io để thao tác với dữ liệu nhị phân.

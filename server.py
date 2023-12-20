@@ -1,11 +1,17 @@
 import socket
+from PIL import ImageGrab
+# Работа с пользователем
 from os import getlogin
-from PIL import Image, ImageGrab
+
+# Работа с изображение
+from PIL import Image
 import io
 import numpy as np
 from random import randint
 import pyautogui
+# Поток
 from threading import Thread
+# PyQt5
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QLabel, QPushButton, QAction, QMessageBox
 from PyQt5.QtGui import QPixmap
